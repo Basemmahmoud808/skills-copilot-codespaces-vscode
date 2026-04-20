@@ -195,7 +195,12 @@ h1 {
   inset: 0.6rem;
   border-radius: 50%;
   border: 1px dashed rgba(255, 255, 255, 0.45);
-  animation: spin 3.8s linear infinite;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .rotor::after {
+    animation: spin 3.8s linear infinite;
+  }
 }
 
 .rotor-a {
@@ -396,5 +401,11 @@ h1 {
 
   .hero-visual {
     min-height: 20rem;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
   }
 }
