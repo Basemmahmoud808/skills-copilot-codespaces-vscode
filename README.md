@@ -4,7 +4,7 @@ Immersive, dark-themed robotics and AI engineering portfolio inspired by the SOH
 
 ## Run locally
 
-Open `/home/runner/work/skills-copilot-codespaces-vscode/skills-copilot-codespaces-vscode/index.html` in a browser.
+Open `index.html` in a browser from the project root.
 
 ## Files
 
